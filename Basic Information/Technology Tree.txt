@@ -1,0 +1,24 @@
+Basic Construction - All Tribes start with this
+Basic Fire Making - All Tribes start with this
+Basic Exploration - All Tribes start with this
+Basic Language - All Tribes start with this
+Basic Mining
+Basic Lumberjacking - Requires access to Wood
+Basic Wood Working - Requires Basic Lumberjacking
+Basic Leaf Weaving - Requires Basic Lumberjacking and access to "Large Leaf Trees"
+Basic Sand Working - Requires access to Sand
+Basic Sand Crafting - Requires Basic Sand Working
+Basic Mining - Requires access to "Minable Materials"
+Basic Stone Crafting - Requires Basic Mining and access to Stone
+Basic Ice Sculpting - Requires Basic Mining and access to Ice
+Basic Mud Working - Requires access to Mud
+Basic Mud Crafting - Requires Basic Mud Working
+Basic Grass Working - Requires access to Long Grass
+Basic Grass Weaving - Requires Basic Grass Working
+Basic Foraging
+Basic Farming - Requires Basic Foraging
+Basic Fishing
+Basic Hunting
+Basic Farming - Requires Basic Hunting
+Basic Boats - Requires access to "Floating Material" and associated technology
+Basic Writing - Requires Basic Language

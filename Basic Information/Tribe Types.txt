@@ -1,0 +1,34 @@
+Mountains
+	Starts with Stone Working
+	Starts with Basic Basic Foraging
+	Starts with Basic Mining
+
+Plains
+	Starts with Grass Weaving
+	Starts with Basic Foraging
+	Starts with Basic Grass Working
+
+Tundra
+	Starts with Ice Sculpting
+	Starts with Ice Fishing
+	Starts with Basic Mining
+
+Swamps
+	Starts with Mud Crafting
+	Starts with Basic Foraging
+	Starts wtih Basic Mud Working
+
+Islands
+	Starts with Leaf Weaving
+	Starts with Fishing
+	Starts with Basic Luberjacking
+
+Deserts
+	Starts with Sand Crafting
+	Starts with Basic Foraging
+	Starts with Basic Sand Working
+	
+Forests
+	Starts with Wood Working
+	Starts with Basic Foraging
+	Starts with Basic Lumberjacking

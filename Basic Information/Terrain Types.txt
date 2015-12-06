@@ -1,0 +1,73 @@
+Mountain
+	Stone is everywhere
+	Special Stone types available
+	Ores are abundant
+	Wood is rare
+
+Plain
+	Long Grass is everywhere
+	Special Plant types are available
+	Ores are rare
+	Wood is rare
+
+Tundra
+	Ice is everywhere
+	Special 
+	Ores are rare
+	Wood is rare
+
+Desert
+	Sand is everywhere
+	Special Sand types are available
+	Ores are rare
+	Wood is rare
+
+Swamp
+	Mud is everywhere
+	Special 
+	Ores are rare
+	Wood is common
+
+Oceanic
+	Salt Water is everywhere
+	Special
+	Ores are unavailable
+	Wood is unavailable
+
+Coastal
+	Salt Water is everywhere
+	Sand is everywhere
+	Special Plants/Animals are available
+	Ores are rare
+	wood is rare
+
+Island
+	Salt Water is everywhere
+	Sand is everywhere
+	Special Plants/Animals/Wood are available
+	Ores are rare
+	Wood is common
+
+Volcano
+	Basalt is everywhere
+	Stone is everywhere
+	No Special Materials are available
+	Ores are common
+	Wood is unavaialable
+
+Wasteland
+	Clay is everywhere
+	Special Clays are avaialable
+	Ores are rare
+	Wood is rare
+
+Land Crack
+	Special events are found here
+	Ores are common
+	Wood is rare
+
+Forest
+	Animals are everywhere
+	Special Animals/Wood is avaialable
+	Ores are rare
+	Wood is abundant

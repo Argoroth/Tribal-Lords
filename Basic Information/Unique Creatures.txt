@@ -1,0 +1,6 @@
+Unique Creatures will randomly generate with various Features from several Feature Pools.
+These Feature Pools will include, but not be limited to, Number of Legs, Number of Arms, Number of Heads, Number of Wings, Number of Tails, Breath Weapons, Skin Type, Diet Type, Meat Type, Bone Strength, Skin Toughness.
+Some of these Feature Pools may have requirements from other feature pools to apply to the Unique Creature being generated.
+Some of these Feature Pools may have certain Features that are negated by another pool.
+Some of these Feature Pools may alter how the Unique Creature interacts with Tribes.
+Some of these Feature Pools may alter how the Unique Creature interact with other Unique Creatures.

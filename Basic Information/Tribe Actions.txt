@@ -1,0 +1,5 @@
+Research - Requires Basic Research
+Explore - Requires Basic Exploration
+Forage - Requires Basic Foraging
+Fish - Requires Basic Fishing
+Hunt - Requires Basic Hunting

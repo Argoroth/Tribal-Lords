@@ -1,0 +1,60 @@
+One Square = One Mile by One Mile
+One Block = Five Squares by Five Squares
+One Chunk = Any number of same terrain type blocks that are directly interconnected
+The Center Square of each block defines the block type
+Blocks will always be more than half their type
+Each Block has one guaranteed special Square
+Each Block can have up to two additional special Squares
+	25% chance to gen each
+Only one tribe can spawn per Block
+	Probably give each block a special spawn Square that is not one of the special Squares
+A chance that blocks bordering each other can have terrain bleed
+	I'm thinking 8% chance per bordering square
+		Still not sure how that would work, but it should make the terrain seem more natural than just five by five chuncks of terrain
+A certain number of Blocks of the same terrain type must connect to one another to count as a valid terrain
+	At least for the first of the basic terrains
+	Special terrains are ALWAYS exempt from this rule
+	If at least one set of the basic terrains are generated to this rules specifications then it no longer matters for other terrain
+	The number will be dependant on map size
+		Three for a small map
+		Four for a medium map
+		Five for a large map
+		Six for a giant map
+The map WILL be bordered by oceans, except one side, that will be tundra instead of ocean
+	One side of the map will be three squares wide
+		Islands will be allowed to spawn on this side
+		This side will not be on the same side as the Tundra
+All squares bordering the ocean will be Coastal terrain
+	The only exceptions to this will be the Island and Tundra terrains
+	All terrain types will have the standard terrain bleed chance
+		This terrain bleed will take place before the conversion to Coastal terrain
+Map Generation order of operations:
+	1 - Randomly select a number from 0 to 3 to determine the side that the Tundra will be generated on
+		A - 0 is north
+		B - 1 is east
+		C - 2 is south
+		D - 3 is west
+	2 - Randomly select a number from 0 to 3 to determine the side that the Islands will be generated on
+		A - 0 is north
+		B - 1 is east
+		C - 2 is south
+		D - 3 is west
+		E - If the number is the same as the number for the Tundra it will select another number
+	3 - Fill in the borders of the map with the appropriate terrain
+	4 - Begin the process of placing Blocks
+	5 - Place Island Blocks in Ocean squares
+	6 - Begin terrain bleeding
+	7 - Generate Coastal Squares
+		A - There should be a small chance that the coastal square does not convert the terrain, to simulate an oceanic cliff(such as the White Cliffs of Dover)
+	8 - Place Special Terrain Elements
+		A - Volcanos, Land Cracks, etc...
+	9 - Generate Special Terrain Squares
+		A - Remember to set it to have a single guarranteed Special Terrain and UP TO 2 more Special Terrain Square
+		B - These random Special Terrain Squares do not count Special Terrain Elements, witch always count as a Special Terrain Square
+	10 - Determine a random Square for tribal spawning
+	11 - Place the Player Tribe
+	12 - Place NPC Tribes
+	13 - Generate Unique Creatures
+		A - One per Chunk
+	14 - Place Unique Creatures
+		B - One per Chunk
